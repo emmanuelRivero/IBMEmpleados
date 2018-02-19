@@ -1,0 +1,4 @@
+com\ibm\IBMEmpleados\bean\Empleado.class
+com\ibm\IBMEmpleados\utils\Conexion.class
+com\ibm\IBMEmpleados\dao\EmpleadoDao.class
+com\ibm\IBMEmpleados\controller\RegistraEmpleadoController.class
