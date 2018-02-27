@@ -33,7 +33,7 @@
         <script type="application/javascript">
             $(document).ready(function(){
                 $("#registrar").click(function(){
-                    window.location = "index.jsp";
+                    window.location = "registroEmpleados.jsp";
                 });
             });
         </script>
