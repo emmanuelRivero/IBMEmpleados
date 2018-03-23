@@ -52,7 +52,7 @@ public class RegistraEmpleadoController extends HttpServlet {
                request.setAttribute("mensaje", "Se insertó correctamente");
             }
             
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("registroEmpleados.jsp").forward(request, response);
                     
         } catch (SQLException ex) {
             System.out.println(ex.getMessage() + "\n" + ex.getCause());
