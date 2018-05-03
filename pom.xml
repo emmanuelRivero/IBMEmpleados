@@ -78,4 +78,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://158.85.231.24:8081/repository/maven-release-IBMempleados/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://158.85.231.24:8081/repository/maven-snapshots-IBMempleados/</url>
+        </snapshotRepository>
+</distributionManagement>
 </project>
