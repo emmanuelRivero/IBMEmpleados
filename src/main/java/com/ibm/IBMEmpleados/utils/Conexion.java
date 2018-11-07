@@ -17,7 +17,7 @@ public class Conexion {
     public static Connection getConexion() throws SQLException {
         //Este es la instrucción para la conexión. Cabe destacar que se quitó password porque mi servidor no tiene contraseña
         //"jdbc:mysql://localhost/test?user=root&password=root";
-        String cadenaConexion = "jdbc:mysql://198.11.242.187:3306/devops?user=devops&password=caminorojoecatepec";
+        String cadenaConexion = "jdbc:mysql://198.11.242.187/devops?user=devops&password=caminorojoecatepec";
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
