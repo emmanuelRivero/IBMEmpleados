@@ -44,7 +44,7 @@
                 }
             %>
         <div class="container">
-            <h1>Registro de usuarios</h1>
+            <h1>Registro de usuarios1</h1>
             <form role="form" action="RegistraEmpleadoController" method="POST">
                 <div class="form-group">
                     <label for="nombre">Nombre(s): </label>
